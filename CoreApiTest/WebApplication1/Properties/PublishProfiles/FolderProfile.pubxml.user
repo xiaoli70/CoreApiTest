@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-11-22T02:37:23.8707061Z;True|2023-11-22T10:01:33.0513270+08:00;True|2023-11-21T15:49:38.6403216+08:00;True|2023-11-08T10:58:36.9193365+08:00;True|2023-11-08T10:06:57.4981779+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

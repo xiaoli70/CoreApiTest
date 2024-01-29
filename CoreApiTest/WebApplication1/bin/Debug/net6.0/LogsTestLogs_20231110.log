@@ -1,0 +1,65 @@
+【异常时间】：2023-11-10 14:33:14,769 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-10 14:33:14,807 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-10 14:33:14,836 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-10 14:33:36,289 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.ActionTestAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  ActionTestAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: ActionTest
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+┣ 客户端区域语言：            zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-82e3a110dc5e792adafeb1ce6e5f6c52-bd0bd325e668ab81-00
+┣ 服务线程 ID：               #10
+┣ 执行耗时：                  281ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    */*
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            0
+┣ sec-ch-ua：                 "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":[{"x":1870503187,"y":1945164852},{"x":703400528,"y":1135417963},{"x":100037268,"y":1273207590},{"x":1680614768,"y":1152119679},{"x":622402378,"y":1827434266}],"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------

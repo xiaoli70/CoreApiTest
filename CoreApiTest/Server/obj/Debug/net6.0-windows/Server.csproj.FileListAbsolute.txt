@@ -1,0 +1,17 @@
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\bin\Debug\net6.0-windows\Server.exe
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\bin\Debug\net6.0-windows\Server.deps.json
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\bin\Debug\net6.0-windows\Server.runtimeconfig.json
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\bin\Debug\net6.0-windows\Server.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\bin\Debug\net6.0-windows\Server.pdb
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.Form1.resources
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.csproj.GenerateResource.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.AssemblyInfoInputs.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.AssemblyInfo.cs
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.csproj.CoreCompileInputs.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\refint\Server.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.pdb
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.genruntimeconfig.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\ref\Server.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\Server\obj\Debug\net6.0-windows\Server.Properties.Resources.resources

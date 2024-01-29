@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreApiTest</name>
+    </assembly>
+    <members>
+        <member name="T:CoreApiTest.Controllers.AddressController">
+            <summary>
+            地址相关接口
+            </summary>
+        </member>
+        <member name="M:CoreApiTest.Controllers.AddressController.ListAsync(System.Int32,System.Int32)">
+            <summary>
+            列表
+            </summary>
+            <param name="page">当前页码</param>
+            <param name="size">每页条数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiTest.Controllers.AddressController.AddAsync(CoreApiTest.Controllers.AddressDto)">
+            <summary>
+            添加
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiTest.Controllers.AddressController.EditAsync(System.String,CoreApiTest.Controllers.AddressDto)">
+            <summary>
+            修改
+            </summary>
+            <param name="Id">编号</param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiTest.Controllers.AddressController.DeleteAsync(System.String)">
+            <summary>
+            删除
+            </summary>
+            <param name="Id">编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiTest.Controllers.WeatherForecastController.GetToken">
+            <summary>
+            获取Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiTest.Controllers.WeatherForecastController.GetTest(System.String)">
+            <summary>
+            测试方法
+            </summary>
+            <param name="tests">密码</param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreApiTest.Model.BaseControllers">
+            <summary>
+            基类
+            </summary>
+        </member>
+        <member name="T:CoreApiTest.Model.JsonView">
+            <summary>
+            统一返回结构
+            </summary>
+        </member>
+        <member name="P:CoreApiTest.Model.JsonView.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:CoreApiTest.Model.JsonView.Msg">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:CoreApiTest.Model.JsonView.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:CoreApiTest.Model.JsonView.Count">
+            <summary>
+            条数
+            </summary>
+        </member>
+        <member name="M:CoreApiTest.Model.SwaggerGenOptionsExtensions.AddAuthenticationHeader(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <summary>
+            为swagger增加Authentication报文头
+            </summary>
+            <param name="option"></param>
+        </member>
+        <member name="M:CoreApiTest.ServiceAutofac.GetAssemblyName">
+            <summary>
+            获取程序集名称
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

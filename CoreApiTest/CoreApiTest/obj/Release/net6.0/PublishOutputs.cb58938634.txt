@@ -1,0 +1,11 @@
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\CoreApiTest.exe
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\appsettings.json
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\CoreApiTest.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\CoreApiTest.deps.json
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\CoreApiTest.runtimeconfig.json
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\CoreApiTest.pdb
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\CoreApiTest\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

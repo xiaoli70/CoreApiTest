@@ -1,0 +1,603 @@
+【异常时间】：2024-01-05 11:13:44,847 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:13:45,105 
+Hosting environment: Production
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:13:45,111 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\部署2\
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:13:45,330 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.ActionTestAsync
+┣ 
+┣ 控制器名称：            AuthController
+┣ 操作名称：              ActionTestAsync
+┣ 显示名称：              
+┣ 路由信息：              [area]: ; [controller]: Auth; [action]: ActionTest
+┣ 请求方式：              POST
+┣ 请求地址：              
+┣ 来源地址：              
+┣ 请求端源：              client
+┣ 浏览器标识：            
+┣ 客户端区域语言：        
+┣ 客户端 IP 地址：        192.168.1.102
+┣ 服务端 IP 地址：        192.168.1.102
+┣ 客户端连接 ID：         00-055e3a787687ccfe297b5f4ce9afa6b2-d509bc28b197e697-00
+┣ 服务线程 ID：           #12
+┣ 执行耗时：              75ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                
+┣ 响应端：                
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：              Microsoft Windows 10.0.19045
+┣ 系统架构：              X64
+┣ 基础框架：              v
+┣ .NET 架构：             .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：              Production
+┣ 启动程序集：            Net6Api
+┣ 进程名称：              w3wp
+┣ 托管程序：              w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Content-Length：        0
+┣ Content-Type：          application/json; charset=utf-8
+┣ Host：                  192.168.1.102:8083
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：        200
+┣ 原始类型：              System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：              Net6Api.Domain.JsonView
+┣ 最终返回值：            {"code":200,"msg":"操作成功","data":[{"x":1666546284,"y":525412698},{"x":1614767521,"y":318718436},{"x":1652704967,"y":345197416},{"x":1314098184,"y":1656458507},{"x":596032580,"y":1103595553}],"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:13:45,391 
+Post请求2024-01-05 11:13:45_____{"code":200,"msg":"操作成功","data":[{"x":1666546284,"y":525412698},{"x":1614767521,"y":318718436},{"x":1652704967,"y":345197416},{"x":1314098184,"y":1656458507},{"x":596032580,"y":1103595553}],"count":0}
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:13:46,920 
+定时任务执行______2024-01-05 11:13:46_True
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:14:01,982 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：             AuthController
+┣ 操作名称：               LoginAsync
+┣ 显示名称：               
+┣ 路由信息：               [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：               POST
+┣ 请求地址：               http://192.168.1.102:8085/
+┣ 来源地址：               http://192.168.1.102:8085/
+┣ 请求端源：               client
+┣ 浏览器标识：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ 客户端区域语言：         zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：         192.168.1.102
+┣ 服务端 IP 地址：         192.168.1.102
+┣ 客户端连接 ID：          00-9ff8a0ba75f7e7fd034f1c72675cec40-c738c2f7257b2072-00
+┣ 服务线程 ID：            #11
+┣ 执行耗时：               414ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                 
+┣ 响应端：                 
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：               Microsoft Windows 10.0.19045
+┣ 系统架构：               X64
+┣ 基础框架：               v
+┣ .NET 架构：              .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：               Production
+┣ 启动程序集：             Net6Api
+┣ 进程名称：               w3wp
+┣ 托管程序：               w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                 application/json, text/plain, */*
+┣ Accept-Encoding：        gzip, deflate
+┣ Accept-Language：        zh-CN,zh;q=0.9
+┣ Connection：             close
+┣ Content-Length：         39
+┣ Content-Type：           application/json
+┣ Host：                   192.168.1.102:8083
+┣ Referer：                http://192.168.1.102:8085/
+┣ User-Agent：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ Origin：                 http://192.168.1.102:8085
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：           application/json
+┣ 
+┣ dto (LoginDto)：         {"loginName":"system","password":"123"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：         200
+┣ 原始类型：               System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：               Net6Api.Domain.JsonView
+┣ 最终返回值：             {"code":400,"msg":"用户名密码错误","data":null,"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:14:08,466 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：             AuthController
+┣ 操作名称：               LoginAsync
+┣ 显示名称：               
+┣ 路由信息：               [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：               POST
+┣ 请求地址：               http://192.168.1.102:8085/
+┣ 来源地址：               http://192.168.1.102:8085/
+┣ 请求端源：               client
+┣ 浏览器标识：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ 客户端区域语言：         zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：         192.168.1.102
+┣ 服务端 IP 地址：         192.168.1.102
+┣ 客户端连接 ID：          00-c81674e1e84f7f602a04fb1468bd1b80-f40d676d245a6693-00
+┣ 服务线程 ID：            #11
+┣ 执行耗时：               5ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                 
+┣ 响应端：                 
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：               Microsoft Windows 10.0.19045
+┣ 系统架构：               X64
+┣ 基础框架：               v
+┣ .NET 架构：              .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：               Production
+┣ 启动程序集：             Net6Api
+┣ 进程名称：               w3wp
+┣ 托管程序：               w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                 application/json, text/plain, */*
+┣ Accept-Encoding：        gzip, deflate
+┣ Accept-Language：        zh-CN,zh;q=0.9
+┣ Connection：             close
+┣ Content-Length：         38
+┣ Content-Type：           application/json
+┣ Host：                   192.168.1.102:8083
+┣ Referer：                http://192.168.1.102:8085/
+┣ User-Agent：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ Origin：                 http://192.168.1.102:8085
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：           application/json
+┣ 
+┣ dto (LoginDto)：         {"loginName":"admin","password":"123"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：         200
+┣ 原始类型：               System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：               Net6Api.Domain.JsonView
+┣ 最终返回值：             {"code":400,"msg":"用户名密码错误","data":null,"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:14:11,982 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：             AuthController
+┣ 操作名称：               LoginAsync
+┣ 显示名称：               
+┣ 路由信息：               [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：               POST
+┣ 请求地址：               http://192.168.1.102:8085/
+┣ 来源地址：               http://192.168.1.102:8085/
+┣ 请求端源：               client
+┣ 浏览器标识：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ 客户端区域语言：         zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：         192.168.1.102
+┣ 服务端 IP 地址：         192.168.1.102
+┣ 客户端连接 ID：          00-1565eca8d965e0a02a59a2ac6e8c2861-56e7d4705af0e463-00
+┣ 服务线程 ID：            #11
+┣ 执行耗时：               1ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                 
+┣ 响应端：                 
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：               Microsoft Windows 10.0.19045
+┣ 系统架构：               X64
+┣ 基础框架：               v
+┣ .NET 架构：              .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：               Production
+┣ 启动程序集：             Net6Api
+┣ 进程名称：               w3wp
+┣ 托管程序：               w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                 application/json, text/plain, */*
+┣ Accept-Encoding：        gzip, deflate
+┣ Accept-Language：        zh-CN,zh;q=0.9
+┣ Connection：             close
+┣ Content-Length：         38
+┣ Content-Type：           application/json
+┣ Host：                   192.168.1.102:8083
+┣ Referer：                http://192.168.1.102:8085/
+┣ User-Agent：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ Origin：                 http://192.168.1.102:8085
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：           application/json
+┣ 
+┣ dto (LoginDto)：         {"loginName":"admin","password":"123"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：         200
+┣ 原始类型：               System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：               Net6Api.Domain.JsonView
+┣ 最终返回值：             {"code":400,"msg":"用户名密码错误","data":null,"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:14:15,653 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：             AuthController
+┣ 操作名称：               LoginAsync
+┣ 显示名称：               
+┣ 路由信息：               [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：               POST
+┣ 请求地址：               http://192.168.1.102:8085/
+┣ 来源地址：               http://192.168.1.102:8085/
+┣ 请求端源：               client
+┣ 浏览器标识：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ 客户端区域语言：         zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：         192.168.1.102
+┣ 服务端 IP 地址：         192.168.1.102
+┣ 客户端连接 ID：          00-2cd96c0617aed28c3685846e6dbd5601-69c9d9ab6e623c3e-00
+┣ 服务线程 ID：            #10
+┣ 执行耗时：               1ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                 
+┣ 响应端：                 
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：               Microsoft Windows 10.0.19045
+┣ 系统架构：               X64
+┣ 基础框架：               v
+┣ .NET 架构：              .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：               Production
+┣ 启动程序集：             Net6Api
+┣ 进程名称：               w3wp
+┣ 托管程序：               w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                 application/json, text/plain, */*
+┣ Accept-Encoding：        gzip, deflate
+┣ Accept-Language：        zh-CN,zh;q=0.9
+┣ Connection：             close
+┣ Content-Length：         41
+┣ Content-Type：           application/json
+┣ Host：                   192.168.1.102:8083
+┣ Referer：                http://192.168.1.102:8085/
+┣ User-Agent：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ Origin：                 http://192.168.1.102:8085
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：           application/json
+┣ 
+┣ dto (LoginDto)：         {"loginName":"admin","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：         200
+┣ 原始类型：               System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：               Net6Api.Domain.JsonView
+┣ 最终返回值：             {"code":400,"msg":"用户名密码错误","data":null,"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:14:21,307 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：             AuthController
+┣ 操作名称：               LoginAsync
+┣ 显示名称：               
+┣ 路由信息：               [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：               POST
+┣ 请求地址：               http://192.168.1.102:8085/
+┣ 来源地址：               http://192.168.1.102:8085/
+┣ 请求端源：               client
+┣ 浏览器标识：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ 客户端区域语言：         zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：         192.168.1.102
+┣ 服务端 IP 地址：         192.168.1.102
+┣ 客户端连接 ID：          00-868470cdbacde26537c6f0721f9b9182-032234239e4597ca-00
+┣ 服务线程 ID：            #10
+┣ 执行耗时：               1ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                 
+┣ 响应端：                 
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：               Microsoft Windows 10.0.19045
+┣ 系统架构：               X64
+┣ 基础框架：               v
+┣ .NET 架构：              .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：               Production
+┣ 启动程序集：             Net6Api
+┣ 进程名称：               w3wp
+┣ 托管程序：               w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                 application/json, text/plain, */*
+┣ Accept-Encoding：        gzip, deflate
+┣ Accept-Language：        zh-CN,zh;q=0.9
+┣ Cache-Control：          no-cache
+┣ Connection：             close
+┣ Content-Length：         41
+┣ Content-Type：           application/json
+┣ Host：                   192.168.1.102:8083
+┣ Pragma：                 no-cache
+┣ Referer：                http://192.168.1.102:8085/
+┣ User-Agent：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ Origin：                 http://192.168.1.102:8085
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：           application/json
+┣ 
+┣ dto (LoginDto)：         {"loginName":"admin","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：         200
+┣ 原始类型：               System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：               Net6Api.Domain.JsonView
+┣ 最终返回值：             {"code":400,"msg":"用户名密码错误","data":null,"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:14:43,547 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：             AuthController
+┣ 操作名称：               LoginAsync
+┣ 显示名称：               
+┣ 路由信息：               [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：               POST
+┣ 请求地址：               http://192.168.1.102:8085/
+┣ 来源地址：               http://192.168.1.102:8085/
+┣ 请求端源：               client
+┣ 浏览器标识：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ 客户端区域语言：         zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：         192.168.1.102
+┣ 服务端 IP 地址：         192.168.1.102
+┣ 客户端连接 ID：          00-2476047e199669a45ce5aa89177fa034-85e20fa3fad2df84-00
+┣ 服务线程 ID：            #11
+┣ 执行耗时：               12ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                 
+┣ 响应端：                 
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：               Microsoft Windows 10.0.19045
+┣ 系统架构：               X64
+┣ 基础框架：               v
+┣ .NET 架构：              .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：               Production
+┣ 启动程序集：             Net6Api
+┣ 进程名称：               w3wp
+┣ 托管程序：               w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                 application/json, text/plain, */*
+┣ Accept-Encoding：        gzip, deflate
+┣ Accept-Language：        zh-CN,zh;q=0.9
+┣ Cache-Control：          no-cache
+┣ Connection：             close
+┣ Content-Length：         41
+┣ Content-Type：           application/json
+┣ Host：                   192.168.1.102:8083
+┣ Pragma：                 no-cache
+┣ Referer：                http://192.168.1.102:8085/
+┣ User-Agent：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ Origin：                 http://192.168.1.102:8085
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：           application/json
+┣ 
+┣ dto (LoginDto)：         {"loginName":"admin","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：         200
+┣ 原始类型：               System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：               Net6Api.Domain.JsonView
+┣ 最终返回值：             {"code":400,"msg":"用户名密码错误","data":null,"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:14:50,352 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：             AuthController
+┣ 操作名称：               LoginAsync
+┣ 显示名称：               
+┣ 路由信息：               [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：               POST
+┣ 请求地址：               http://192.168.1.102:8085/
+┣ 来源地址：               http://192.168.1.102:8085/
+┣ 请求端源：               client
+┣ 浏览器标识：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ 客户端区域语言：         zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：         192.168.1.102
+┣ 服务端 IP 地址：         192.168.1.102
+┣ 客户端连接 ID：          00-f1eb7c625d191b0f9f7da760caa7395e-1789623ee28f8421-00
+┣ 服务线程 ID：            #11
+┣ 执行耗时：               125ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                 
+┣ 响应端：                 
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：               Microsoft Windows 10.0.19045
+┣ 系统架构：               X64
+┣ 基础框架：               v
+┣ .NET 架构：              .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：               Production
+┣ 启动程序集：             Net6Api
+┣ 进程名称：               w3wp
+┣ 托管程序：               w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                 application/json, text/plain, */*
+┣ Accept-Encoding：        gzip, deflate
+┣ Accept-Language：        zh-CN,zh;q=0.9
+┣ Cache-Control：          no-cache
+┣ Connection：             close
+┣ Content-Length：         42
+┣ Content-Type：           application/json
+┣ Host：                   192.168.1.102:8083
+┣ Pragma：                 no-cache
+┣ Referer：                http://192.168.1.102:8085/
+┣ User-Agent：             Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+┣ Origin：                 http://192.168.1.102:8085
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：           application/json
+┣ 
+┣ dto (LoginDto)：         {"loginName":"system","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：         200
+┣ 原始类型：               System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：               Net6Api.Domain.JsonView
+┣ 最终返回值：             {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzeXN0ZW0iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBbWluIiwiZXhwIjoxNzA0NDI1MDkwLCJpc3MiOiJuZXQ2YXBpIiwiYXVkIjoibmV0NmFwaSJ9.n_FwPlRWDKQsNKuVQSaXLRpDGrt7d15j_RXz_S9Njhc","expires":"2024-01-05T1
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:23:44,854 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.ActionTestAsync
+┣ 
+┣ 控制器名称：            AuthController
+┣ 操作名称：              ActionTestAsync
+┣ 显示名称：              
+┣ 路由信息：              [area]: ; [controller]: Auth; [action]: ActionTest
+┣ 请求方式：              POST
+┣ 请求地址：              
+┣ 来源地址：              
+┣ 请求端源：              client
+┣ 浏览器标识：            
+┣ 客户端区域语言：        
+┣ 客户端 IP 地址：        192.168.1.102
+┣ 服务端 IP 地址：        192.168.1.102
+┣ 客户端连接 ID：         00-07187bfca23611e12997ae45e79bfdcd-077c195b3d78015c-00
+┣ 服务线程 ID：           #24
+┣ 执行耗时：              0ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                
+┣ 响应端：                
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：              Microsoft Windows 10.0.19045
+┣ 系统架构：              X64
+┣ 基础框架：              v
+┣ .NET 架构：             .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：              Production
+┣ 启动程序集：            Net6Api
+┣ 进程名称：              w3wp
+┣ 托管程序：              w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Content-Length：        0
+┣ Content-Type：          application/json; charset=utf-8
+┣ Host：                  192.168.1.102:8083
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：        200
+┣ 原始类型：              System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：              Net6Api.Domain.JsonView
+┣ 最终返回值：            {"code":200,"msg":"操作成功","data":[{"x":1305355843,"y":1088256690},{"x":1025738029,"y":244642897},{"x":749261045,"y":2018850587},{"x":305713126,"y":1140250728},{"x":1768327868,"y":368306356}],"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:23:44,860 
+Post请求2024-01-05 11:23:44_____{"code":200,"msg":"操作成功","data":[{"x":1305355843,"y":1088256690},{"x":1025738029,"y":244642897},{"x":749261045,"y":2018850587},{"x":305713126,"y":1140250728},{"x":1768327868,"y":368306356}],"count":0}
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:23:46,278 
+定时任务执行______2024-01-05 11:23:46_True
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:33:44,859 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.ActionTestAsync
+┣ 
+┣ 控制器名称：            AuthController
+┣ 操作名称：              ActionTestAsync
+┣ 显示名称：              
+┣ 路由信息：              [area]: ; [controller]: Auth; [action]: ActionTest
+┣ 请求方式：              POST
+┣ 请求地址：              
+┣ 来源地址：              
+┣ 请求端源：              client
+┣ 浏览器标识：            
+┣ 客户端区域语言：        
+┣ 客户端 IP 地址：        192.168.1.102
+┣ 服务端 IP 地址：        192.168.1.102
+┣ 客户端连接 ID：         00-f1e2998112203629d40e3e6cfa5c5e47-f266a4c0e40d5d58-00
+┣ 服务线程 ID：           #33
+┣ 执行耗时：              0ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                
+┣ 响应端：                
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：              Microsoft Windows 10.0.19045
+┣ 系统架构：              X64
+┣ 基础框架：              v
+┣ .NET 架构：             .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：              Production
+┣ 启动程序集：            Net6Api
+┣ 进程名称：              w3wp
+┣ 托管程序：              w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Content-Length：        0
+┣ Content-Type：          application/json; charset=utf-8
+┣ Host：                  192.168.1.102:8083
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：        200
+┣ 原始类型：              System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：              Net6Api.Domain.JsonView
+┣ 最终返回值：            {"code":200,"msg":"操作成功","data":[{"x":2084530047,"y":2001776104},{"x":1006144866,"y":1533412974},{"x":465764475,"y":2050206038},{"x":42389760,"y":2007784401},{"x":1478949582,"y":483818036}],"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:33:44,864 
+Post请求2024-01-05 11:33:44_____{"code":200,"msg":"操作成功","data":[{"x":2084530047,"y":2001776104},{"x":1006144866,"y":1533412974},{"x":465764475,"y":2050206038},{"x":42389760,"y":2007784401},{"x":1478949582,"y":483818036}],"count":0}
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:33:45,909 
+定时任务执行______2024-01-05 11:33:45_True
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:43:44,848 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.ActionTestAsync
+┣ 
+┣ 控制器名称：            AuthController
+┣ 操作名称：              ActionTestAsync
+┣ 显示名称：              
+┣ 路由信息：              [area]: ; [controller]: Auth; [action]: ActionTest
+┣ 请求方式：              POST
+┣ 请求地址：              
+┣ 来源地址：              
+┣ 请求端源：              client
+┣ 浏览器标识：            
+┣ 客户端区域语言：        
+┣ 客户端 IP 地址：        192.168.1.102
+┣ 服务端 IP 地址：        192.168.1.102
+┣ 客户端连接 ID：         00-fab926686bd18c78a2b94294ff904df3-b849d820b3da3b0e-00
+┣ 服务线程 ID：           #35
+┣ 执行耗时：              0ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                
+┣ 响应端：                
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：              Microsoft Windows 10.0.19045
+┣ 系统架构：              X64
+┣ 基础框架：              v
+┣ .NET 架构：             .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：              Production
+┣ 启动程序集：            Net6Api
+┣ 进程名称：              w3wp
+┣ 托管程序：              w3wp
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Content-Length：        0
+┣ Content-Type：          application/json; charset=utf-8
+┣ Host：                  192.168.1.102:8083
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：        200
+┣ 原始类型：              System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：              Net6Api.Domain.JsonView
+┣ 最终返回值：            {"code":200,"msg":"操作成功","data":[{"x":1992962394,"y":779714884},{"x":674169456,"y":81417836},{"x":1626331118,"y":1203745186},{"x":226318588,"y":1472017894},{"x":1417717738,"y":400652883}],"count":0}
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:43:44,854 
+Post请求2024-01-05 11:43:44_____{"code":200,"msg":"操作成功","data":[{"x":1992962394,"y":779714884},{"x":674169456,"y":81417836},{"x":1626331118,"y":1203745186},{"x":226318588,"y":1472017894},{"x":1417717738,"y":400652883}],"count":0}
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:43:45,948 
+定时任务执行______2024-01-05 11:43:45_True
+--------------------------------------------------------------------
+【异常时间】：2024-01-05 11:44:42,712 
+Application is shutting down...
+--------------------------------------------------------------------

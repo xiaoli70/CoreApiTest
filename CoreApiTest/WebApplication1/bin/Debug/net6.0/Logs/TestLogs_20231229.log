@@ -1,0 +1,305 @@
+【异常时间】：2023-12-29 11:50:54,020 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  LoginAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ 客户端区域语言：            zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-e4d7afe00e86c5f2dec3a6951e15a236-e26f12e8e17870cc-00
+┣ 服务线程 ID：               #15
+┣ 执行耗时：                  1004ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ Content-Type：              application/json
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            51
+┣ sec-ch-ua：                 "Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              application/json
+┣ 
+┣ dto (LoginDto)：            {"loginName":"System","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTeXN0ZW0iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBbWluIiwiZXhwIjoxNzAzODIyNDUzLCJpc3MiOiJuZXQ2YXBpIiwiYXVkIjoibmV0NmFwaSJ9.42NoDRpdeyy26M3qVeIV9R9-pwDkK7OET_RxhoUw5DQ","expires":"2023-12-29T1
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-12-29 12:02:20,412 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  LoginAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ 客户端区域语言：            zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-c1bf7d4358a518c2b3cfbafae9f9e44c-58cc0101ce79b82f-00
+┣ 服务线程 ID：               #9
+┣ 执行耗时：                  937ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ Content-Type：              application/json
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            51
+┣ sec-ch-ua：                 "Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              application/json
+┣ 
+┣ dto (LoginDto)：            {"loginName":"System","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU3lzdGVtIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MDM4MjMxNDAsImlzcyI6Im5ldDZhcGkiLCJhdWQiOiJuZXQ2YXBpIn0.bpF2aZ6usJq8-henV6Uf7f-s7GIyl6g4wyORjSr-8l0","expires":"2023-12-2
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-12-29 12:02:32,120 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  LoginAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ 客户端区域语言：            zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-4d3f720a4cedd14b3fa3e5f78cfd8de9-8d1e7edf274cac6b-00
+┣ 服务线程 ID：               #3
+┣ 执行耗时：                  23ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ Content-Type：              application/json
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            51
+┣ sec-ch-ua：                 "Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              application/json
+┣ 
+┣ dto (LoginDto)：            {"loginName":"System","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU3lzdGVtIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MDM4MjMxNTIsImlzcyI6Im5ldDZhcGkiLCJhdWQiOiJuZXQ2YXBpIn0.fuTvBHiAd2vKDLDtXML5iu9fVXslzcRLpLwoq3Sa-CE","expires":"2023-12-2
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-12-29 12:02:35,494 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  LoginAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ 客户端区域语言：            zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-dfc636a317b0f2a417c87626dcd01921-c0dfccadc49360f1-00
+┣ 服务线程 ID：               #5
+┣ 执行耗时：                  13ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ Content-Type：              application/json
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            51
+┣ sec-ch-ua：                 "Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              application/json
+┣ 
+┣ dto (LoginDto)：            {"loginName":"System","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU3lzdGVtIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MDM4MjMxNTUsImlzcyI6Im5ldDZhcGkiLCJhdWQiOiJuZXQ2YXBpIn0.bT2CNxgjrtK7bSgAaIN5V8QsTyxXIebv-LYKaTMUjZ8","expires":"2023-12-2
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-12-29 12:02:37,168 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  LoginAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ 客户端区域语言：            zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-5d58899a9286c9a7f4a7d178c640f4b7-baf2a2b627c5da1c-00
+┣ 服务线程 ID：               #5
+┣ 执行耗时：                  11ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ Content-Type：              application/json
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            51
+┣ sec-ch-ua：                 "Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              application/json
+┣ 
+┣ dto (LoginDto)：            {"loginName":"System","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU3lzdGVtIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MDM4MjMxNTcsImlzcyI6Im5ldDZhcGkiLCJhdWQiOiJuZXQ2YXBpIn0.V1ScQ-tgf6_t92UzGddNmtnFsJUOwVPz4Wl3oPXBL08","expires":"2023-12-2
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------

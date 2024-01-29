@@ -1,0 +1,123 @@
+【异常时间】：2024-01-03 09:58:26,231 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  LoginAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ 客户端区域语言：            zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-cfcd1ef311ae6243449739976fb9abd7-31bd9a9a975e8162-00
+┣ 服务线程 ID：               #21
+┣ 执行耗时：                  12662ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ Content-Type：              application/json
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            51
+┣ sec-ch-ua：                 "Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              application/json
+┣ 
+┣ dto (LoginDto)：            {"loginName":"System","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU3lzdGVtIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MDQyNDc3MDUsImlzcyI6Im5ldDZhcGkiLCJhdWQiOiJuZXQ2YXBpIn0.H9u8mV6m7QK3hZuMBX1_WHFdUgM0uJK9c6BEpKeq2lM","expires":"2024-01-0
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2024-01-03 09:58:48,724 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.ImageController.ConvertoBase
+┣ 
+┣ 控制器名称：                ImageController
+┣ 操作名称：                  ConvertoBase
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Image; [action]: ConvertoBase
+┣ 请求方式：                  GET
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ 客户端区域语言：            zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-8520b4cb7772c2ff5c79c5999acd572e-71ff016525dcee64-00
+┣ 服务线程 ID：               #9
+┣ 执行耗时：                  3ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+┣ JWT Token：                 bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU3lzdGVtIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MDQyNDc3MDUsImlzcyI6Im5ldDZhcGkiLCJhdWQiOiJuZXQ2YXBpIn0.H9u8mV6m7QK3hZuMBX1_WHFdUgM0uJK9c6BEpKeq2lM
+┣ 
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+┣ Authorization：             bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU3lzdGVtIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MDQyNDc3MDUsImlzcyI6Im5ldDZhcGkiLCJhdWQiOiJuZXQ2YXBpIn0.H9u8mV6m7QK3hZuMBX1_WHFdUgM0uJK9c6BEpKeq2lM
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ sec-ch-ua：                 "Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              
+┣ 
+┣ imagePath (String)：        d:\Pictures\Screenshots\屏幕截图(13).png
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.String
+┣ 最终类型：                  System.String
+┣ 最终返回值：                "iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAYAAADo08FDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAP+6SURBVHhe7J0HYBTF28afSyCEHpqi9CpNBBSlJBQLCBawoYJS/SPop2BBqQKCiB2soNJUULGBUkQpgQSwIISOAiGhd0JJSL9v3tmdy95mr+ZSeX/wZqft7OzuzO3sPjuzNrsAhRhfim+z2XSXe3LjkHi7bV+xKmtubYthGIZhGIZhGIZhGIZhGIZhGIZhmIJNvgjAapN5LVR6u6u+lCsfDp8TVmU1lsmbfVlfrRpuDA7WfQzDMAzDMAzDMAzDMAzDEMWDgnQXwzAMw+QOGy9dQvjp07qPYQJDngvAanNKmMxvAdWK3BCA80tUpu1Sfu62H12lCm4uVUr3MQzDMAzDMAzDMAzDMAxDBPvwTI9hGIZh/GHD2XOIuHBe9zFMYHASgDfHbxS2ATuO/IMTF48iJS0FmSI
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------

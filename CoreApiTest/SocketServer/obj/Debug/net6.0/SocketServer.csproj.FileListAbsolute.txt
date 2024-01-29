@@ -1,0 +1,14 @@
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\bin\Debug\net6.0\SocketServer.exe
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\bin\Debug\net6.0\SocketServer.deps.json
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\bin\Debug\net6.0\SocketServer.runtimeconfig.json
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\bin\Debug\net6.0\SocketServer.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\bin\Debug\net6.0\SocketServer.pdb
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\SocketServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\SocketServer.AssemblyInfoInputs.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\SocketServer.AssemblyInfo.cs
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\SocketServer.csproj.CoreCompileInputs.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\SocketServer.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\refint\SocketServer.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\SocketServer.pdb
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\SocketServer.genruntimeconfig.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\SocketServer\obj\Debug\net6.0\ref\SocketServer.dll

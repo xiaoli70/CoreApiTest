@@ -1,0 +1,1102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Net6Api</name>
+    </assembly>
+    <members>
+        <member name="T:Net6Api.Controllers.AddressController">
+            <summary>
+            地址相关接口
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.#ctor(SqlSugar.ISqlSugarClient,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            依赖注入
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.ListAsync(System.Int32,System.Int32)">
+            <summary>
+            列表
+            </summary>
+            <param name="page">当前页码</param>
+            <param name="size">每页条数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.AddAsync(Net6Api.Domain.UserInfo)">
+            <summary>
+            添加
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.EditAsync(Net6Api.Domain.UserInfo)">
+            <summary>
+            修改
+            </summary>
+            <param name="Id">编号</param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.DeleteAsync(System.Int32)">
+            <summary>
+            删除
+            </summary>
+            <param name="Id">编号</param>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Controllers.AuthController">
+            <summary>
+            鉴权相关
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.AuthController.LoginAsync(Net6Api.Domain.LoginDto)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AuthController.ActionTestAsync">
+            <summary>
+            测试方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AuthController.GetString">
+            <summary>
+            huoqustring
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AuthController.RetrieveDocsHomePage">
+            <summary>
+            下载文档
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Controllers.AutoServices">
+            <summary>
+            定时任务
+            </summary>
+        </member>
+        <member name="T:Net6Api.Controllers.BaseControllers">
+            <summary>
+            基类
+            </summary>
+        </member>
+        <member name="T:Net6Api.Controllers.ImageController">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.ImageController.ConvertoBase(System.String)">
+            <summary>
+            图片转base64
+            </summary>
+            <param name="imagePath"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Controllers.SendMailController">
+            <summary>
+            测试方法 
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.SendMailController.Send(System.String)">
+            <summary>
+            发送邮件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Domain.EmailInfoConst">
+            <summary>
+            邮箱信息
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.EmailInfoConst.SmtpServer">
+            <summary>
+            SMTP服务器地址
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.EmailInfoConst.Port">
+            <summary>
+            端口
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.EmailInfoConst.Username">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.EmailInfoConst.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:Net6Api.Domain.Helper.EmailHelper">
+            <summary>
+            发送邮箱
+            </summary>
+        </member>
+        <member name="F:Net6Api.Domain.JsonBehavior.None">
+            <summary>
+            不输出 JSON 格式
+            </summary>
+            <remarks>默认值，输出文本日志</remarks>
+        </member>
+        <member name="F:Net6Api.Domain.JsonBehavior.OnlyJson">
+            <summary>
+            只输出 JSON 格式
+            </summary>
+        </member>
+        <member name="F:Net6Api.Domain.JsonBehavior.All">
+            <summary>
+            输出 JSON 格式和文本日志
+            </summary>
+        </member>
+        <member name="T:Net6Api.Domain.JsonView">
+            <summary>
+            统一返回结构
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.JsonView.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.JsonView.Msg">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.JsonView.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.JsonView.Count">
+            <summary>
+            条数
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginDto.LoginName">
+            <summary>
+            用户名
+            </summary>
+            <example>System</example>
+        </member>
+        <member name="P:Net6Api.Domain.LoginDto.Password">
+            <summary>
+            密码
+            </summary>
+            <example>123456</example>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Token">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Expires">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Id">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Name">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Avatar">
+            <summary>
+            用户头像
+            </summary>
+        </member>
+        <member name="T:Net6Api.Filter.CustomExceptionFilter">
+            <summary>
+            异常拦截
+            
+            </summary>
+        </member>
+        <member name="T:Net6Api.Filter.LoggingMonitorAttribute">
+            <summary>
+            强大的日志监听器
+            </summary>
+            <remarks>主要用于将请求的信息打印出来</remarks>
+        </member>
+        <member name="F:Net6Api.Filter.LoggingMonitorAttribute.FilterOrder">
+            <summary>
+            过滤器排序
+            </summary>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.Order">
+            <summary>
+            排序属性
+            </summary>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.#ctor(Furion.Logging.LoggingMonitorSettings)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="settings"></param>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.Title">
+            <summary>
+            日志标题
+            </summary>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.WithReturnValue">
+            <summary>
+            是否记录返回值
+            </summary>
+            <remarks>bool 类型，默认输出</remarks>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.ReturnValueThreshold">
+            <summary>
+            设置返回值阈值
+            </summary>
+            <remarks>配置返回值字符串阈值，超过这个阈值将截断，默认全量输出</remarks>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.JsonBehavior">
+            <summary>
+            配置 Json 输出行为
+            </summary>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.IgnorePropertyNames">
+            <summary>
+            配置序列化忽略的属性名称
+            </summary>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.IgnorePropertyTypes">
+            <summary>
+            配置序列化忽略的属性类型
+            </summary>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.JsonIndented">
+            <summary>
+            JSON 输出格式化
+            </summary>
+            <remarks>bool 类型，默认输出</remarks>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.ContractResolver">
+            <summary>
+            序列化属性命名规则（返回值）
+            </summary>
+        </member>
+        <member name="P:Net6Api.Filter.LoggingMonitorAttribute.Settings">
+            <summary>
+            配置信息
+            </summary>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)">
+            <summary>
+            监视 Action 执行
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.OnPageHandlerSelectionAsync(Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext)">
+            <summary>
+            模型绑定拦截
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.OnPageHandlerExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext,Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutionDelegate)">
+            <summary>
+            拦截请求
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GenerateAuthorizationTemplate(System.Text.Json.Utf8JsonWriter,System.Security.Claims.ClaimsPrincipal,Microsoft.Extensions.Primitives.StringValues)">
+            <summary>
+            生成 JWT 授权信息日志模板
+            </summary>
+            <param name="writer"></param>
+            <param name="claimsPrincipal"></param>
+            <param name="authorization"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GenerateRequestHeadersTemplate(System.Text.Json.Utf8JsonWriter,Microsoft.AspNetCore.Http.IHeaderDictionary)">
+            <summary>
+            生成请求头日志模板
+            </summary>
+            <param name="writer"></param>
+            <param name="headers"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GenerateParameterTemplate(System.Text.Json.Utf8JsonWriter,System.Collections.Generic.IDictionary{System.String,System.Object},System.Reflection.MethodInfo,Microsoft.Extensions.Primitives.StringValues,Net6Api.Util.Logger.LoggingMonitorMethod)">
+            <summary>
+            生成请求参数信息日志模板
+            </summary>
+            <param name="writer"></param>
+            <param name="parameterValues"></param>
+            <param name="method"></param>
+            <param name="contentType"></param>
+            <param name="monitorMethod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GenerateReturnInfomationTemplate(System.Text.Json.Utf8JsonWriter,System.Object,System.Reflection.MethodInfo,Net6Api.Util.Logger.LoggingMonitorMethod)">
+            <summary>
+            生成返回值信息日志模板
+            </summary>
+            <param name="writer"></param>
+            <param name="resultContext"></param>
+            <param name="method"></param>
+            <param name="monitorMethod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GenerateExcetpionInfomationTemplate(System.Text.Json.Utf8JsonWriter,System.Exception,System.Boolean)">
+            <summary>
+            生成异常信息日志模板
+            </summary>
+            <param name="writer"></param>
+            <param name="exception"></param>
+            <param name="isValidationException">是否是验证异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.TrySerializeObject(System.Object,Net6Api.Util.Logger.LoggingMonitorMethod,System.Boolean@)">
+            <summary>
+            序列化对象
+            </summary>
+            <param name="obj"></param>
+            <param name="monitorMethod"></param>
+            <param name="succeed"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.CheckIsSetWithReturnValue">
+            <summary>
+            检查是否开启启用返回值
+            </summary>
+            <param name="monitorMethod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.CheckIsSetJsonIndented">
+            <summary>
+            检查是否开启 JSON 格式化
+            </summary>
+            <param name="monitorMethod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GetReturnValueThreshold">
+            <summary>
+            获取返回值阈值
+            </summary>
+            <param name="monitorMethod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GetContractResolver(System.Object,Net6Api.Util.Logger.LoggingMonitorMethod)">
+            <summary>
+            获取 序列化属性命名规则
+            </summary>
+            <param name="contractResolver"></param>
+            <param name="monitorMethod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GetIgnorePropertyNames(Net6Api.Util.Logger.LoggingMonitorMethod)">
+            <summary>
+            获取忽略序列化属性名称集合
+            </summary>
+            <param name="monitorMethod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.GetIgnorePropertyTypes(Net6Api.Util.Logger.LoggingMonitorMethod)">
+            <summary>
+            获取忽略序列化属性类型集合
+            </summary>
+            <param name="monitorMethod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Filter.LoggingMonitorAttribute.HandleGenericType(System.Type)">
+            <summary>
+            处理泛型类型转字符串打印问题
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Filter.MSFromAttribute">
+            <summary>
+            null
+            </summary>
+        </member>
+        <member name="M:Net6Api.Filter.SampleAsyncActionFilter.JsonContent(System.String)">
+            <summary>
+            返回JSON
+            </summary>
+            <param name="json">json字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Util.JsonExtention">
+            <summary>
+            拓展类
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.JsonExtention.ToJson(System.Object)">
+            <summary>
+            将对象序列化成Json字符串
+            </summary>
+            <param name="obj">需要序列化的对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.JsonExtention.ToObject``1(System.String)">
+            <summary>
+            将Json字符串反序列化为对象
+            </summary>
+            <typeparam name="T">对象类型</typeparam>
+            <param name="jsonStr">Json字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.JsonExtention.ToObject(System.String,System.Type)">
+            <summary>
+            将Json字符串反序列化为对象
+            </summary>
+            <param name="jsonStr">json字符串</param>
+            <param name="type">对象类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.AppFriendlyException.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.Logger.AppFriendlyException.#ctor(System.String,System.Object)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message"></param>
+            <param name="errorCode"></param>
+        </member>
+        <member name="M:Net6Api.Util.Logger.AppFriendlyException.#ctor(System.String,System.Object,System.Exception)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message"></param>
+            <param name="errorCode"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="M:Net6Api.Util.Logger.AppFriendlyException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="P:Net6Api.Util.Logger.AppFriendlyException.ErrorCode">
+            <summary>
+            错误码
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.AppFriendlyException.OriginErrorCode">
+            <summary>
+            错误码（没被复写过的 ErrorCode ）
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.AppFriendlyException.ErrorMessage">
+            <summary>
+            错误消息（支持 Object 对象）
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.AppFriendlyException.StatusCode">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.AppFriendlyException.ValidationException">
+            <summary>
+            是否是数据验证异常
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.AppFriendlyException.Data">
+            <summary>
+            额外数据
+            </summary>
+        </member>
+        <member name="F:Net6Api.Util.Logger.CamelCasePropertyNamesContractResolverWithIgnoreProperties._names">
+            <summary>
+            被忽略的属性名称
+            </summary>
+        </member>
+        <member name="F:Net6Api.Util.Logger.CamelCasePropertyNamesContractResolverWithIgnoreProperties._type">
+            <summary>
+            被忽略的属性类型
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.Logger.CamelCasePropertyNamesContractResolverWithIgnoreProperties.#ctor(System.String[],System.Type[])">
+            <summary>
+            构造函数
+            </summary>
+            <param name="names"></param>
+            <param name="types"></param>
+        </member>
+        <member name="F:Net6Api.Util.Logger.DefaultContractResolverWithIgnoreProperties._names">
+            <summary>
+            被忽略的属性名称
+            </summary>
+        </member>
+        <member name="F:Net6Api.Util.Logger.DefaultContractResolverWithIgnoreProperties._type">
+            <summary>
+            被忽略的属性类型
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.Logger.DefaultContractResolverWithIgnoreProperties.#ctor(System.String[],System.Type[])">
+            <summary>
+            构造函数
+            </summary>
+            <param name="names"></param>
+            <param name="types"></param>
+        </member>
+        <member name="F:Net6Api.Util.Logger.ContractResolverTypes.CamelCase">
+            <summary>
+            CamelCase 小驼峰
+            </summary>
+            <remarks>默认值</remarks>
+        </member>
+        <member name="F:Net6Api.Util.Logger.ContractResolverTypes.Default">
+            <summary>
+            保持原样
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ILoggerExtensions.ScopeContext(Microsoft.Extensions.Logging.ILogger,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>
+            配置日志上下文
+            </summary>
+            <param name="logger"></param>
+            <param name="properties">建议使用 ConcurrentDictionary 类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ILoggerExtensions.ScopeContext(Microsoft.Extensions.Logging.ILogger,System.Action{Net6Api.Util.Logger.LogContext})">
+            <summary>
+            配置日志上下文
+            </summary>
+            <param name="logger"></param>
+            <param name="configure"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ILoggerExtensions.ScopeContext(Microsoft.Extensions.Logging.ILogger,Net6Api.Util.Logger.LogContext)">
+            <summary>
+            配置日志上下文
+            </summary>
+            <param name="logger"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Net6Api.Util.Logger.JsonBehavior.None">
+            <summary>
+            不输出 JSON 格式
+            </summary>
+            <remarks>默认值，输出文本日志</remarks>
+        </member>
+        <member name="F:Net6Api.Util.Logger.JsonBehavior.OnlyJson">
+            <summary>
+            只输出 JSON 格式
+            </summary>
+        </member>
+        <member name="F:Net6Api.Util.Logger.JsonBehavior.All">
+            <summary>
+            输出 JSON 格式和文本日志
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.Logger.JsonElementConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Text.Json.JsonElement,System.Boolean,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            反序列化
+            </summary>
+            <param name="reader"></param>
+            <param name="objectType"></param>
+            <param name="existingValue"></param>
+            <param name="hasExistingValue"></param>
+            <param name="serializer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.LogContext.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.LogContext.Properties">
+            <summary>
+            日志上下文数据
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.Logger.LogContextExtensions.Set(Net6Api.Util.Logger.LogContext,System.Object,System.Object)">
+            <summary>
+            设置上下文数据
+            </summary>
+            <param name="logContext"></param>
+            <param name="key">键</param>
+            <param name="value">值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.LogContextExtensions.SetRange(Net6Api.Util.Logger.LogContext,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>
+            批量设置上下文数据
+            </summary>
+            <param name="logContext"></param>
+            <param name="properties"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.LogContextExtensions.Get(Net6Api.Util.Logger.LogContext,System.Object)">
+            <summary>
+            获取上下文数据
+            </summary>
+            <param name="logContext"></param>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.LogContextExtensions.Get``1(Net6Api.Util.Logger.LogContext,System.Object)">
+            <summary>
+            获取上下文数据
+            </summary>
+            <param name="logContext"></param>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="P:Net6Api.Util.Logger.LoggingMonitorMethod.FullName">
+            <summary>
+            方法名称
+            </summary>
+            <remarks>完全限定名</remarks>
+        </member>
+        <member name="P:Net6Api.Util.Logger.LoggingMonitorMethod.WithReturnValue">
+            <summary>
+            是否记录返回值
+            </summary>
+            <remarks>bool 类型，默认输出</remarks>
+        </member>
+        <member name="P:Net6Api.Util.Logger.LoggingMonitorMethod.ReturnValueThreshold">
+            <summary>
+            设置返回值阈值
+            </summary>
+            <remarks>配置返回值字符串阈值，超过这个阈值将截断，默认全量输出</remarks>
+        </member>
+        <member name="P:Net6Api.Util.Logger.LoggingMonitorMethod.JsonBehavior">
+            <summary>
+            配置 Json 输出行为
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.LoggingMonitorMethod.IgnorePropertyNames">
+            <summary>
+            配置序列化忽略的属性名称
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.LoggingMonitorMethod.IgnorePropertyTypes">
+            <summary>
+            配置序列化忽略的属性类型
+            </summary>
+        </member>
+        <member name="P:Net6Api.Util.Logger.LoggingMonitorMethod.JsonIndented">
+            <summary>
+            JSON 输出格式化
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.Logger.NewtonsoftJsonLongToStringJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Int64,System.Boolean,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            反序列化
+            </summary>
+            <param name="reader"></param>
+            <param name="objectType"></param>
+            <param name="existingValue"></param>
+            <param name="hasExistingValue"></param>
+            <param name="serializer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.NewtonsoftJsonLongToStringJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Int64,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            序列化
+            </summary>
+            <param name="writer"></param>
+            <param name="value"></param>
+            <param name="serializer"></param>
+        </member>
+        <member name="M:Net6Api.Util.Logger.NewtonsoftJsonNullableLongToStringJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Nullable{System.Int64},System.Boolean,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            反序列化
+            </summary>
+            <param name="reader"></param>
+            <param name="objectType"></param>
+            <param name="existingValue"></param>
+            <param name="hasExistingValue"></param>
+            <param name="serializer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.NewtonsoftJsonNullableLongToStringJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Nullable{System.Int64},Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            序列化
+            </summary>
+            <param name="writer"></param>
+            <param name="value"></param>
+            <param name="serializer"></param>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ConvertToDateTime(System.DateTimeOffset)">
+            <summary>
+            将 DateTimeOffset 转换成本地 DateTime
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ConvertToDateTime(System.Nullable{System.DateTimeOffset})">
+            <summary>
+            将 DateTimeOffset? 转换成本地 DateTime?
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ConvertToDateTimeOffset(System.DateTime)">
+            <summary>
+            将 DateTime 转换成 DateTimeOffset
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ConvertToDateTimeOffset(System.Nullable{System.DateTime})">
+            <summary>
+            将 DateTime? 转换成 DateTimeOffset?
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ToByteArray(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            将 IFormFile 转换成 byte[]
+            </summary>
+            <param name="formFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.CopyToSave(System.IO.Stream,System.String)">
+            <summary>
+            将流保存到本地磁盘
+            </summary>
+            <param name="stream"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.CopyToSave(System.Byte[],System.String)">
+            <summary>
+            将字节数组保存到本地磁盘
+            </summary>
+            <param name="bytes"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.CopyToSaveAsync(System.IO.Stream,System.String)">
+            <summary>
+            将流保存到本地磁盘
+            </summary>
+            <param name="stream"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.CopyToSaveAsync(System.Byte[],System.String)">
+            <summary>
+            将字节数组保存到本地磁盘
+            </summary>
+            <param name="bytes"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.IsRichPrimitive(System.Type)">
+            <summary>
+            判断是否是富基元类型
+            </summary>
+            <param name="type">类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.AddOrUpdate``1(System.Collections.Generic.Dictionary{System.String,``0},System.Collections.Generic.IDictionary{System.String,``0})">
+            <summary>
+            合并两个字典
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dic">字典</param>
+            <param name="newDic">新字典</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.AddOrUpdate``1(System.Collections.Concurrent.ConcurrentDictionary{System.String,``0},System.Collections.Generic.Dictionary{System.String,``0})">
+            <summary>
+            合并两个字典
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dic">字典</param>
+            <param name="newDic">新字典</param>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.IsValueTuple(System.Type)">
+            <summary>
+            判断是否是元组类型
+            </summary>
+            <param name="type">类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.IsAsync(System.Reflection.MethodInfo)">
+            <summary>
+            判断方法是否是异步
+            </summary>
+            <param name="method">方法</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.HasImplementedRawGeneric(System.Type,System.Type)">
+            <summary>
+            判断类型是否实现某个泛型
+            </summary>
+            <param name="type">类型</param>
+            <param name="generic">泛型类型</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.IsAnonymous(System.Object)">
+            <summary>
+            判断是否是匿名类型
+            </summary>
+            <param name="obj">对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.GetAncestorTypes(System.Type)">
+            <summary>
+            获取所有祖先类型
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.GetRealReturnType(System.Reflection.MethodInfo)">
+            <summary>
+            获取方法真实返回类型
+            </summary>
+            <param name="method"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ChangeType``1(System.Object)">
+            <summary>
+            将一个对象转换为指定类型
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ChangeType(System.Object,System.Type)">
+            <summary>
+            将一个对象转换为指定类型
+            </summary>
+            <param name="obj">待转换的对象</param>
+            <param name="type">目标类型</param>
+            <returns>转换后的对象</returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.GetFoundAttribute``1(System.Reflection.MethodInfo,System.Boolean)">
+            <summary>
+            查找方法指定特性，如果没找到则继续查找声明类
+            </summary>
+            <typeparam name="TAttribute"></typeparam>
+            <param name="method"></param>
+            <param name="inherit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.Format(System.String,System.Object[])">
+            <summary>
+            格式化字符串
+            </summary>
+            <param name="str"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.SplitCamelCase(System.String)">
+            <summary>
+            切割骆驼命名式字符串
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ToObject(System.Text.Json.JsonElement)">
+            <summary>
+            JsonElement 转 Object
+            </summary>
+            <param name="jsonElement"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ClearStringAffixes(System.String,System.Int32,System.String[])">
+            <summary>
+            清除字符串前后缀
+            </summary>
+            <param name="str">字符串</param>
+            <param name="pos">0：前后缀，1：后缀，-1：前缀</param>
+            <param name="affixes">前后缀集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ToLowerCamelCase(System.String)">
+            <summary>
+            首字母小写
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.ToUpperCamelCase(System.String)">
+            <summary>
+            首字母大写
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            判断集合是否为空
+            </summary>
+            <typeparam name="T">元素类型</typeparam>
+            <param name="collection">集合对象</param>
+            <returns><see cref="T:System.Boolean"/> 实例，true 表示空集合，false 表示非空集合</returns>
+        </member>
+        <member name="M:Net6Api.Util.Logger.ObjectExtensions.GetTypeAttribute``1(System.Type,System.Boolean)">
+            <summary>
+            获取类型自定义特性
+            </summary>
+            <typeparam name="TAttribute">特性类型</typeparam>
+            <param name="type">类类型</param>
+            <param name="inherit">是否继承查找</param>
+            <returns>特性对象</returns>
+        </member>
+        <member name="F:Net6Api.Util.Logger.UnifyContext.EnabledUnifyHandler">
+            <summary>
+            是否启用规范化结果
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.Logger.UnifyContext.CheckVaildResult(Microsoft.AspNetCore.Mvc.IActionResult,System.Object@)">
+            <summary>
+            检查是否是有效的结果（可进行规范化的结果）
+            </summary>
+            <param name="result"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Net6Api.Util.TP._lazyRegex">
+            <summary>
+            模板正则表达式对象
+            </summary>
+        </member>
+        <member name="M:Net6Api.Util.TP.Wrapper(System.String,System.String,System.String[])">
+            <summary>
+            生成规范日志模板
+            </summary>
+            <param name="title">标题</param>
+            <param name="description">描述</param>
+            <param name="items">列表项，如果以 ##xxx## 开头，自动生成 xxx: 属性</param>
+            <returns><see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Net6Api.Util.TP.WrapperRectangle(System.String[],System.Int32,System.Int32)">
+            <summary>
+            矩形包裹
+            </summary>
+            <param name="lines">多行消息</param>
+            <param name="align">对齐方式，-1/左对齐；0/居中对其；1/右对齐</param>
+            <param name="pad">间隙</param>
+            <returns><see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:Net6Api.Util.TP.PadRight(System.String,System.Int32)">
+            <summary>
+            等宽文字对齐
+            </summary>
+            <param name="str"></param>
+            <param name="totalByteCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Util.TP.GetLength(System.String)">
+            <summary>
+            获取字符串长度
+            </summary>
+            <param name="str">字符串</param>
+            <returns>字符串长度</returns>
+        </member>
+        <member name="T:Furion.Logging.LoggingMonitorSettings">
+            <summary>
+            日志监视器配置
+            </summary>
+            <remarks>默认配置节点：Logging:Monitor，支持自定义</remarks>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.GlobalEnabled">
+            <summary>
+            全局启用
+            </summary>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.IncludeOfMethods">
+            <summary>
+            配置包含拦截的方法名列表（完全限定名格式：程序集名称.类名.方法名），注意无需添加参数签名
+            </summary>
+            <remarks>结合 <seealso cref="P:Furion.Logging.LoggingMonitorSettings.GlobalEnabled"/> 使用，当 <see cref="P:Furion.Logging.LoggingMonitorSettings.GlobalEnabled"/> 为 false 时有效，</remarks>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.ExcludeOfMethods">
+            <summary>
+            配置排除拦截的方法名列表（完全限定名格式：程序集名称.类名.方法名），注意无需添加参数签名
+            </summary>
+            <remarks>结合 <seealso cref="P:Furion.Logging.LoggingMonitorSettings.GlobalEnabled"/> 使用，当 <see cref="P:Furion.Logging.LoggingMonitorSettings.GlobalEnabled"/> 为 true 时有效，</remarks>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.BahLogLevel">
+            <summary>
+            业务日志消息级别
+            </summary>
+            <remarks>控制 Oops.Oh 或 Oops.Bah 日志记录位置，默认写入 <see cref="F:Microsoft.Extensions.Logging.LogLevel.Information"/></remarks>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.LogLevel">
+            <summary>
+            默认输出日志级别
+            </summary>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.WithReturnValue">
+            <summary>
+            是否记录返回值
+            </summary>
+            <remarks>bool 类型，默认输出</remarks>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.ReturnValueThreshold">
+            <summary>
+            设置返回值阈值
+            </summary>
+            <remarks>配置返回值字符串阈值，超过这个阈值将截断，默认全量输出</remarks>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.IgnorePropertyNames">
+            <summary>
+             配置序列化忽略的属性名称
+             </summary>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.IgnorePropertyTypes">
+            <summary>
+            配置序列化忽略的属性类型
+            </summary>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.WriteFilter">
+            <summary>
+            自定义日志筛选器
+            </summary>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.IsMvcFilterRegister">
+            <summary>
+            是否 Mvc Filter 方式注册
+            </summary>
+            <remarks>解决过去 Mvc Filter 全局注册的问题</remarks>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.FromGlobalFilter">
+            <summary>
+            是否来自全局触发器
+            </summary>
+            <remarks>解决局部和全局触发器同时配置触发两次问题</remarks>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.InternalWriteFilter">
+            <summary>
+            自定义日志筛选器
+            </summary>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.JsonIndented">
+            <summary>
+            JSON 输出格式化
+            </summary>
+        </member>
+        <member name="P:Furion.Logging.LoggingMonitorSettings.JsonWriterOptions">
+            <summary>
+            配置 Json 写入选项
+            </summary>
+        </member>
+    </members>
+</doc>

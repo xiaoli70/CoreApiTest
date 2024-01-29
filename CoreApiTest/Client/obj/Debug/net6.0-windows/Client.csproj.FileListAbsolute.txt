@@ -1,0 +1,16 @@
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\bin\Debug\net6.0-windows\Client.exe
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\bin\Debug\net6.0-windows\Client.deps.json
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\bin\Debug\net6.0-windows\Client.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\bin\Debug\net6.0-windows\Client.pdb
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.Form1.resources
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.csproj.GenerateResource.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.AssemblyInfoInputs.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.AssemblyInfo.cs
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.csproj.CoreCompileInputs.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\refint\Client.dll
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.pdb
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
+E:\VSWork\6.0WorkTest\CoreApiTest\Client\obj\Debug\net6.0-windows\ref\Client.dll

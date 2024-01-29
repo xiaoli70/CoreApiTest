@@ -1,0 +1,497 @@
+【异常时间】：2023-11-23 14:50:46,746 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:50:47,307 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:50:47,366 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:50:47,433 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:52:24,462 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:52:29,485 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:52:29,551 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:52:29,593 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:52:37,023 
+Post请求2023-11-23 14:52:37_____{"code":200,"msg":"操作成功","data":[{"x":1844434697,"y":2076513074},{"x":1417630217,"y":1956184766},{"x":498469663,"y":1634780197},{"x":312962707,"y":389426419},{"x":1177308733,"y":1909611088}],"count":0}
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 14:52:38,336 
+定时任务执行______2023-11-23 14:52:38_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:06:33,079 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:06:33,444 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:06:37,341 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:06:37,477 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:06:37,948 
+Post请求2023-11-23 15:06:37_____{"code":200,"msg":"操作成功","data":[{"x":429864276,"y":1223260354},{"x":689255041,"y":2044578897},{"x":608019099,"y":1126103168},{"x":942570254,"y":1540269544},{"x":1176068843,"y":810248788}],"count":0}
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:06:39,630 
+定时任务执行______2023-11-23 15:06:39_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:09:21,782 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:09:22,183 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:09:25,129 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:09:25,220 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:09:25,840 
+Post请求2023-11-23 15:09:25_____{"code":200,"msg":"操作成功","data":[{"x":633278441,"y":1670716033},{"x":1906719628,"y":680259905},{"x":1921756286,"y":516873693},{"x":577849882,"y":264223386},{"x":256709053,"y":1790294516}],"count":0}
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:09:32,061 
+定时任务执行______2023-11-23 15:09:32_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:16:07,537 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:16:08,065 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:16:24,138 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:16:24,176 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:16:24,593 
+Post请求2023-11-23 15:16:24_____{"code":200,"msg":"操作成功","data":[{"x":1008324862,"y":771229098},{"x":1571638041,"y":1397617826},{"x":1424979038,"y":263044146},{"x":324152711,"y":2051161670},{"x":239801108,"y":97289414}],"count":0}
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:16:25,163 
+定时任务执行______2023-11-23 15:16:25_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:25:05,643 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:25:06,169 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:25:14,045 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:25:14,146 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:25:59,144 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:27:29,526 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:27:31,527 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:27:31,573 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:59:32,252 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:59:32,710 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:59:37,377 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:59:37,432 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:59:40,284 
+报错
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 15:59:40,826 
+定时任务执行______2023-11-23 15:59:40_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:00:30,394 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  LoginAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ 客户端区域语言：            zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-76c8052d66fce7e4a80125556e54e5bd-b3fbfb656c247914-00
+┣ 服务线程 ID：               #3
+┣ 执行耗时：                  21052ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9
+┣ Content-Type：              application/json
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            51
+┣ sec-ch-ua：                 "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              application/json
+┣ 
+┣ dto (LoginDto)：            {"loginName":"System","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTeXN0ZW0iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBbWluIiwiZXhwIjoxNzAwNzI3MDI0LCJpc3MiOiJuZXQ2YXBpIiwiYXVkIjoibmV0NmFwaSJ9.l8iRUAFe8PonB4ds0kXIpdz6fy2gQratNaGeRQ3TUec","expires":"2023-11-23T1
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:01:27,023 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.GetString
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  GetString
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: GetString
+┣ 请求方式：                  GET
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ 客户端区域语言：            zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-7af268528386e7a8ebc830b620c57eaf-5458f67ff1d4dd14-00
+┣ 服务线程 ID：               #26
+┣ 执行耗时：                  4247ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  授权信息 ━━━━━━━━━━━━━━━
+┣ JWT Token：                 bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTeXN0ZW0iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBbWluIiwiZXhwIjoxNzAwNzI3MDI0LCJpc3MiOiJuZXQ2YXBpIiwiYXVkIjoibmV0NmFwaSJ9.l8iRUAFe8PonB4ds0kXIpdz6fy2gQratNaGeRQ3TUec
+┣ 
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9
+┣ Authorization：             bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTeXN0ZW0iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBbWluIiwiZXhwIjoxNzAwNzI3MDI0LCJpc3MiOiJuZXQ2YXBpIiwiYXVkIjoibmV0NmFwaSJ9.l8iRUAFe8PonB4ds0kXIpdz6fy2gQratNaGeRQ3TUec
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ sec-ch-ua：                 "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.String
+┣ 最终类型：                  System.String
+┣ 最终返回值：                "{\"Code\":200,\"Msg\":\"操作成功\",\"Data\":\"\",\"Count\":0}"
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:06:19,714 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:06:20,019 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:06:20,050 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:06:20,072 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:06:23,675 
+报错
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:06:24,435 
+定时任务执行______2023-11-23 16:06:24_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:12:10,164 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:12:10,491 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:12:10,527 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:12:10,550 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:12:13,543 
+报错
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:12:14,097 
+定时任务执行______2023-11-23 16:12:14_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:17:18,660 
+Now listening on: http://localhost:5191
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:17:19,007 
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:17:19,069 
+Hosting environment: Development
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:17:19,097 
+Content root path: E:\VSWork\6.0WorkTest\CoreApiTest\WebApplication1\
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:17:22,191 
+报错
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:17:22,908 
+定时任务执行______2023-11-23 16:17:22_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:22:29,127 
+报错
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:22:30,413 
+定时任务执行______2023-11-23 16:22:30_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:39:18,081 
+报错
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:39:19,500 
+定时任务执行______2023-11-23 16:39:19_True
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:39:48,062 
+执行方法
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:39:55,897 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.RetrieveDocsHomePage
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  RetrieveDocsHomePage
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: RetrieveDocsHomePage
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ 客户端区域语言：            zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-e0a8ca61f1126c58b38b8d6ebe23c844-38c4c83ea65c782d-00
+┣ 服务线程 ID：               #3
+┣ 执行耗时：                  13592ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            0
+┣ sec-ch-ua：                 "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<System.Int32>
+┣ 最终类型：                  System.String
+┣ 最终返回值：                "{\"Code\":200,\"Msg\":\"操作成功\",\"Data\":40623,\"Count\":0}"
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:41:08,199 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.LoginAsync
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  LoginAsync
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: Login
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ 客户端区域语言：            zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-9ae421aa10029bf9d495b45cf262a1e9-ef5adbb6d1c65e29-00
+┣ 服务线程 ID：               #25
+┣ 执行耗时：                  11450ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9
+┣ Content-Type：              application/json
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            51
+┣ sec-ch-ua：                 "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+┣ Content-Type：              application/json
+┣ 
+┣ dto (LoginDto)：            {"loginName":"System","password":"123456"}
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+┣ 最终类型：                  Net6Api.Domain.JsonView
+┣ 最终返回值：                {"code":200,"msg":"操作成功","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTeXN0ZW0iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBbWluIiwiZXhwIjoxNzAwNzI5NDYzLCJpc3MiOiJuZXQ2YXBpIiwiYXVkIjoibmV0NmFwaSJ9.xDCk_noGAri5DbYrTrnuayuIhe9khb-WDcX24QPkjSE","expires":"2023-11-23 1
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:41:28,022 
+执行方法
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:41:30,060 
+┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+┣ Net6Api.Controllers.AuthController.RetrieveDocsHomePage
+┣ 
+┣ 控制器名称：                AuthController
+┣ 操作名称：                  RetrieveDocsHomePage
+┣ 显示名称：                  
+┣ 路由信息：                  [area]: ; [controller]: Auth; [action]: RetrieveDocsHomePage
+┣ 请求方式：                  POST
+┣ 请求地址：                  http://localhost:5191/swagger/index.html
+┣ 来源地址：                  http://localhost:5191/swagger/index.html
+┣ 请求端源：                  client
+┣ 浏览器标识：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ 客户端区域语言：            zh-CN,zh;q=0.9
+┣ 客户端 IP 地址：            0.0.0.1
+┣ 服务端 IP 地址：            0.0.0.1
+┣ 客户端连接 ID：             00-e28cb6ffa02ac31ca19bee8b7f2496f2-881f8f228d10c224-00
+┣ 服务线程 ID：               #14
+┣ 执行耗时：                  1114ms
+┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+┣ 请求端：                    
+┣ 响应端：                    
+┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+┣ 系统名称：                  Microsoft Windows 10.0.19045
+┣ 系统架构：                  X64
+┣ 基础框架：                  v
+┣ .NET 架构：                 .NET 6.0.24
+┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+┣ 运行环境：                  Development
+┣ 启动程序集：                Net6Api
+┣ 进程名称：                  Net6Api
+┣ 托管程序：                  Kestrel
+┣ ━━━━━━━━━━━━━━━  请求头信息 ━━━━━━━━━━━━━━━
+┣ 
+┣ Accept：                    text/plain
+┣ Connection：                keep-alive
+┣ Host：                      localhost:5191
+┣ User-Agent：                Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+┣ Accept-Encoding：           gzip, deflate, br
+┣ Accept-Language：           zh-CN,zh;q=0.9
+┣ Authorization：             bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTeXN0ZW0iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBbWluIiwiZXhwIjoxNzAwNzI5NDYzLCJpc3MiOiJuZXQ2YXBpIiwiYXVkIjoibmV0NmFwaSJ9.xDCk_noGAri5DbYrTrnuayuIhe9khb-WDcX24QPkjSE
+┣ Origin：                    http://localhost:5191
+┣ Referer：                   http://localhost:5191/swagger/index.html
+┣ Content-Length：            0
+┣ sec-ch-ua：                 "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+┣ sec-ch-ua-mobile：          ?0
+┣ sec-ch-ua-platform：        "Windows"
+┣ Sec-Fetch-Site：            same-origin
+┣ Sec-Fetch-Mode：            cors
+┣ Sec-Fetch-Dest：            empty
+┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+┣ HTTP响应状态码：            200
+┣ 原始类型：                  System.Threading.Tasks.Task<System.Int32>
+┣ 最终类型：                  System.String
+┣ 最终返回值：                "{\"Code\":200,\"Msg\":\"操作成功\",\"Data\":40623,\"Count\":0}"
+┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:49:16,251 
+报错
+--------------------------------------------------------------------
+【异常时间】：2023-11-23 16:49:16,575 
+定时任务执行______2023-11-23 16:49:16_True
+--------------------------------------------------------------------

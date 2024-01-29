@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TG6sTbJV/E89XnHr6vASbOCJaW2paTefwFdUEp9Dalel9M7Fad+3TBnTNo5wbEWMr693+k/Q7FQzMUQTmb1h/Q==",
+  "success": true,
+  "projectFilePath": "E:\\VSWork\\6.0WorkTest\\CoreApiTest\\SocketServer\\SocketServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

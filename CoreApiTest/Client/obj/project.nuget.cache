@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jRzLcCizZh25EAqU6O49AnF9D313GJ4Ce7Je67CukBoXjZw3XJQIPa5+TcY7YapwQf4T0n/2tSEEofVfbeTIvw==",
+  "success": true,
+  "projectFilePath": "E:\\VSWork\\6.0WorkTest\\CoreApiTest\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="T:WebApplication1.Controllers.AddressController">
+            <summary>
+            地址相关接口
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.AddressController.ListAsync(System.Int32,System.Int32)">
+            <summary>
+            列表
+            </summary>
+            <param name="page">当前页码</param>
+            <param name="size">每页条数</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.AddressController.AddAsync(WebApplication1.Domain.AddressDto)">
+            <summary>
+            添加
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.AddressController.EditAsync(System.String,WebApplication1.Domain.AddressDto)">
+            <summary>
+            修改
+            </summary>
+            <param name="Id">编号</param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.AddressController.DeleteAsync(System.String)">
+            <summary>
+            删除
+            </summary>
+            <param name="Id">编号</param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication1.Controllers.AuthController">
+            <summary>
+            鉴权相关
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.AuthController.LoginAsync(WebApplication1.Domain.LoginDto)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication1.Controllers.BaseControllers">
+            <summary>
+            基类
+            </summary>
+        </member>
+        <member name="T:WebApplication1.Domain.JsonView">
+            <summary>
+            统一返回结构
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.JsonView.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.JsonView.Msg">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.JsonView.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.JsonView.Count">
+            <summary>
+            条数
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.LoginDto.LoginName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.LoginDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.LoginView.Token">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.LoginView.Expires">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.LoginView.Id">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.LoginView.Name">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:WebApplication1.Domain.LoginView.Avatar">
+            <summary>
+            用户头像
+            </summary>
+        </member>
+    </members>
+</doc>

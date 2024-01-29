@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Net6Api</name>
+    </assembly>
+    <members>
+        <member name="T:Net6Api.Controllers.AddressController">
+            <summary>
+            地址相关接口
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.#ctor(SqlSugar.ISqlSugarClient,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            依赖注入
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.ListAsync(System.Int32,System.Int32)">
+            <summary>
+            列表
+            </summary>
+            <param name="page">当前页码</param>
+            <param name="size">每页条数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.AddAsync(Net6Api.Domain.UserInfo)">
+            <summary>
+            添加
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.EditAsync(Net6Api.Domain.UserInfo)">
+            <summary>
+            修改
+            </summary>
+            <param name="Id">编号</param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AddressController.DeleteAsync(System.Int32)">
+            <summary>
+            删除
+            </summary>
+            <param name="Id">编号</param>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Controllers.AuthController">
+            <summary>
+            鉴权相关
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.AuthController.LoginAsync(Net6Api.Domain.UserInfo)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AuthController.ActionTestAsync">
+            <summary>
+            测试方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AuthController.GetString">
+            <summary>
+            huoqustring
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Net6Api.Controllers.AuthController.RetrieveDocsHomePage">
+            <summary>
+            下载文档
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Controllers.BaseControllers">
+            <summary>
+            基类
+            </summary>
+        </member>
+        <member name="T:Net6Api.Controllers.SendMailController">
+            <summary>
+            测试方法 
+            </summary>
+        </member>
+        <member name="M:Net6Api.Controllers.SendMailController.Send(System.String)">
+            <summary>
+            发送邮件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Net6Api.Domain.EmailInfoConst">
+            <summary>
+            邮箱信息
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.EmailInfoConst.SmtpServer">
+            <summary>
+            SMTP服务器地址
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.EmailInfoConst.Port">
+            <summary>
+            端口
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.EmailInfoConst.Username">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.EmailInfoConst.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:Net6Api.Domain.Helper.EmailHelper">
+            <summary>
+            发送邮箱
+            </summary>
+        </member>
+        <member name="T:Net6Api.Domain.JsonView">
+            <summary>
+            统一返回结构
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.JsonView.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.JsonView.Msg">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.JsonView.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.JsonView.Count">
+            <summary>
+            条数
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginDto.LoginName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Token">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Expires">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Id">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Name">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:Net6Api.Domain.LoginView.Avatar">
+            <summary>
+            用户头像
+            </summary>
+        </member>
+    </members>
+</doc>
